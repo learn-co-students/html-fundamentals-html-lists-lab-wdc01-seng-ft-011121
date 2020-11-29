@@ -100,7 +100,7 @@ us to easily display related and nested content in a readable format.
 
 The first part of this challenge is to make the first 2 tests pass by:
 
-1. Creating an unordered list 
+1. Creating an unordered list
 2. Nesting each grilled cheese ingredient as a list item wrapped in `<li>` tags
 
 Start up `httpserver` or open `index.html` in your browser. Let's say we wanted
@@ -144,7 +144,6 @@ might look like:
   <li>Nacho Cheese French Fries</li>
 </ol>
 ```
-
 > Feel free to test this out by adding it to `index.html`, saving and refreshing
 > the tab where the file is open. Now, `Grilled Cheese` will be displayed as `1.
 > Grilled Cheese` as the #1 food (where it belongs).
@@ -172,7 +171,7 @@ following example will be displayed the same as the previous:
 
 To complete the challenge write the necessary HTML to pass the tests:
 
-3. Create an ordered list 
+3. Create an ordered list
 4. Nest each step for creating grilled cheese as a list item wrapped in `<li>` tags
 
 Okay, so we've got our grilled cheese ingredients, but what about the steps
@@ -184,7 +183,7 @@ with a square of butter. The steps to making a basic grilled cheese would be:
 fry for 2 minutes`
 
 ***
-Once you've written an ordered list that displays these 5 steps correctly, run `learn test` 
+Once you've written an ordered list that displays these 5 steps correctly, run `learn test`
 to see the tests pass.
 ***
 
@@ -197,5 +196,3 @@ ingredients.  Its possible, for instance, to use list elements to organize
 navigation links - with styling, we make the content look however we want:
 remove the bullets, make them line up horizontally, but in our HTML they will
 still be organized and easy to read.
-
-
